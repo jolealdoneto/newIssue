@@ -4,6 +4,9 @@
       <r:require modules="bootstrap"/>
    </head>
 <body>
+		<g:if test="${flash.message}">
+				<p><g:message code="${flash.message}" /></p>	
+		</g:if>
 		<div id="issue" class="modal hide fade in" style="display: none; ">  
 				<form action="${createLink(controller: 'issue', action: 'create')}">
 						<div class="modal-header">  

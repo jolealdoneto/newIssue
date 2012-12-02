@@ -89,3 +89,8 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+
+grails.github.username = "jolealdoneto"
+grails.github.passwrd = "PASSWORD"
+grails.github.url = "https://api.github.com/repos/jolealdoneto/newIssue/issues"
